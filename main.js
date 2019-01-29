@@ -8,7 +8,7 @@ let cat = {
 //needs to determine if current number of pets is less than the tolerance
 //if it is then allow pets otherwise dont allow pets 
 function petCat() {
-  //we call useItems() here to run logic when the pet is cat and also 
+  //we call useItems() here to run logic when the cat is pet and also 
   //keep that logic seperate and organized to adhere to the single responsibility principle
   useItems()
   if (cat.pets <= cat.tolerance) {
